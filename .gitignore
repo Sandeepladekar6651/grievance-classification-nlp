@@ -1,0 +1,12 @@
+# Data files
+*.csv
+
+# Model files
+*.pkl
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
