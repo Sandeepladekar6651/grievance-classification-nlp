@@ -4,6 +4,9 @@ import string
 import nltk
 from nltk.corpus import stopwords
 
+import nltk
+nltk.download('stopwords')
+
 list_stopwords = stopwords.words('english')
 
 def text_process(mess):
@@ -74,4 +77,5 @@ if st.button("Predict Category"):
         # Show result in green bold text
         st.markdown(
             f"✅ Predicted Category: <span style='color:green; font-weight:bold;'>{predicted_category}</span>",
+
             unsafe_allow_html=True)
