@@ -1,0 +1,10 @@
+# Dataset files (do not upload large data)
+*.csv
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
